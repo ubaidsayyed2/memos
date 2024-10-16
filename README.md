@@ -10,7 +10,7 @@ An open-source, self-hosted note-taking solution designed for seamless deploymen
 <a href="https://demo.usememos.com/">Live Demo</a>
 
 <p>
-  <a href="https://hub.docker.com/r/neosmemo/memos"><img alt="Docker pull" src="https://img.shields.io/docker/pulls/neosmemo/memos.svg"/></a>
+  <a href="https://hub.docker.com/r/ubsayyed/memos"><img alt="Docker pull" src="https://img.shields.io/docker/pulls/neosmemo/memos.svg"/></a>
   <a href="https://discord.gg/tfPJa4UmAv"><img alt="Discord" src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord&logoColor=f5f5f5" /></a>
 </p>
 
@@ -28,7 +28,7 @@ An open-source, self-hosted note-taking solution designed for seamless deploymen
 ## Deploy with Docker in seconds
 
 ```bash
-docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/memos:stable
+docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos ubsayyed/memos:stable
 ```
 
 > [!NOTE]
