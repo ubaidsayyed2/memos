@@ -42,7 +42,7 @@ jobs:
         with:
           images: |
             ubsayyed/memos
-            ghcr.io/neosmemo/memos
+            ghcr.io/usememos/memos
           flavor: |
             latest=false
           tags: |
