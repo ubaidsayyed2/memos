@@ -16,7 +16,7 @@ An open-source, self-hosted note-taking solution designed for seamless deploymen
 
 ![demo](https://www.usememos.com/demo.png)
 
-## Main Features
+## Main Features.
 
 - **Privacy First** 🏠: Take control of your data. All runtime data is securely stored in your local database.
 - **Create at Speed** ✍️: Save content as plain text for quick access, with Markdown support for fast formatting and easy sharing.
