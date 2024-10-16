@@ -49,8 +49,8 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            neosmemo/memos
-            ghcr.io/usememos/memos
+            ubsayyed/memos
+            ghcr.io/ubsayyed/memos
           tags: |
             type=raw,value=${{ env.VERSION }}
           flavor: |
