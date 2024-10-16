@@ -27,7 +27,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ github.token }}
+          password: ${{ secrets.GHCR_PAT }}
 
       - name: Set up Docker Buildx
         id: buildx
@@ -42,7 +42,7 @@ jobs:
         with:
           images: |
             ubsayyed/memos
-            ghcr.io/usememos/memos
+            ghcr.io/ubsayyed/memos
           flavor: |
             latest=false
           tags: |
